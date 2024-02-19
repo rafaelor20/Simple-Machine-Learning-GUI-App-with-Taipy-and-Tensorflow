@@ -1,0 +1,6 @@
+services:
+  ml_app:
+    container_name: ml_app
+    build: . #Dockerfile do node se encontra na pasta atual
+    ports:
+      - 5000:5000

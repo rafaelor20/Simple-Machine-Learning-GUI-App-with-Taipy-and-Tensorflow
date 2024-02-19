@@ -59,11 +59,6 @@ def on_change(state, var_name, var_val):
         state.img_path = var_val
     #print(var_name, var_val)
 
-
-
-
-
-
 app = Gui(page=index)
 
 if __name__ == "__main__":
